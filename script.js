@@ -2,7 +2,7 @@ let generatedNumber = null;
 
 document.getElementById("generate-btn").addEventListener("click", function () {
   // Generate a random number (0-9 for 10 digits)
-  generatedNumber = Array.from({ length: 4 }, () => Math.floor(Math.random() * 10)).join('');
+  generatedNumber = Array.from({ length: 10 }, () => Math.floor(Math.random() * 10)).join('');
   document.getElementById("number-panel").classList.remove('blur');
   
   // Display the random number in the number panel
