@@ -25,7 +25,7 @@ document.getElementById("compare-btn").addEventListener("click", function () {
   
   // Compare numbers
   if (userInput === generatedNumber) {
-    document.getElementById("result").textContent = "✅ Numbers match!";
+    document.getElementById("result").textContent = "✅ Numbers match!,GOOD JOB.";
   } else {
     document.getElementById("result").textContent = "❌ Numbers do not match!";
   }
